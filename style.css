@@ -1,0 +1,65 @@
+body{
+    background:linear-gradient(135deg,#153677,#4e085f);
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    margin: 150px auto ;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+
+button:hover{
+    cursor:pointer;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    
+    
+    color: white;
+    text-align: start;
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif;
+    font-weight: 500;
+    size: 48px;
+    
+    
+}
+
+img{
+    padding-left: 10px;
+}
+
+
+.strike{
+    text-decoration: line-through;
+}
+
+/*For responsive*/
+@media (max-width: 600px) {
+    .container{
+        width: 90vw;
+        height: 400px;
+        background-color: rgb(0, 0, 0);
+        
+        padding: 10px auto;
+    }
+    
+    img{
+        width: 50px;
+        height: 50px;
+        padding-left:10px ;
+    }
+  }
